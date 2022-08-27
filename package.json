@@ -1,0 +1,20 @@
+{
+  "name": "noodlebonzana",
+  "version": "1.0.0",
+  "description": "noooooodles",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b3nnythemartian/noodlebonzana.git"
+  },
+  "author": "Ebenezer Ajaero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b3nnythemartian/noodlebonzana/issues"
+  },
+  "homepage": "https://github.com/b3nnythemartian/noodlebonzana#readme"
+}
