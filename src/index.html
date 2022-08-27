@@ -2,16 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link rel="stylesheet" href="../dist/output.css">
     <title>Noodle Bonzana - Delicious Noodles</title>
   </head>
   <body>
-    <div class="container mx-auto">
-      <h1 class="text-3xl font-bold underline">
-        Noodle Bonzana!
-        Yes
-      </h1>
+    <div class="mx-auto bg-yellow-200">
+      <div class="flex flex-row items-center justify-between p-8 md:justify-around">
+        <a src='./' class="text-4xl font-semibold">N</a>
+
+        <div class="flex flex-row p-0 m-0 space-x-12">
+          <a href="./menu" class="text-xl font-medium text-blue-900 text-opacity-95">Menu</a>
+          <a href="./book" class="text-xl font-medium text-blue-900 text-opacity-95 ">Book</a>
+        </div>
+      </div>
+
+      <div class="flex flex-col mx-auto md:flex-row">
+        <div class="px-8 py-36">
+          <h1 class="text-5xl font-extrabold">
+            Delicious. Fried. Noodles.
+          </h1>
+          <p class="mb-12 font-regular my-7">Welcome to the <span class='underline'>best</span> fried noodles you've ever had. <br>Delicate and luxurious, slowly spiced. Made to be relished. <br>Made to be savoured. </p>
+
+          <div class="mt-12">
+          <a href="/menu" class="text-lg font-semibold text-blue-900 text-opacity-95">View our Menu</a>
+          </div>
+        </div>
+        <div class="">
+          <img src="../dist/pictures/noodles.jpg" alt="noodles in black pan" class="object-cover h-96 w-96">
+        </div>
+      </div>
     </div>
   </body>
 </html>
